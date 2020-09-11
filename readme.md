@@ -1,11 +1,5 @@
 # Working with the DOM
 
-Can you really _manipulate_ The DOM though?
-
-![Dom Toretto](https://media.giphy.com/media/XDb8RW95ZVLLW/giphy.gif)
-
-Yea I didn't think so... Thankfully we're not talking about _that_ Dom.
-
 Today we're going to be practicing DOM manipulation and event handling.
 
 ## Learning Objectives
@@ -19,9 +13,9 @@ This [DOM Gist](https://gist.github.com/thegitfather/9c9f1a927cd57df14a59c268f11
 
 ## Setup
 
-You're provided a basic website with included `index.html`, `style.css`, and `script.js`. All of your work will go in `script.js` - you shouldn't have to edit `index.html` or `style.css`. 
+You're provided a basic website with included `index.html`, `style.css`, and `script.js`. All of your work will go in `script.js` - you shouldn't have to edit `index.html` or `style.css`.
 
-*_Please create individual functions for each solution. Don't forget to **call** the function once you're finished._*
+_*Please create individual functions for each solution. Don't forget to **call** the function once you're finished.*_
 
 ## Completion
 
