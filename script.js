@@ -82,7 +82,7 @@ window.onload =  function(event) {
     blogPost.appendChild(pElement);
 
 
-    let main = document.getElementsByClassName("main")[0]; //[0] = end of the list
+    let main = document.getElementsByClassName("main")[0]; //[0] = end of list
     main.appendChild(blogPost);
   }
 
