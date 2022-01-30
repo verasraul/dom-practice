@@ -25,17 +25,20 @@ window.onload =  function(event) {
   }
   updatedSiteTitle();
 
+
   // Part 2
   function updateBackgroundColor() {
     document.body.style.backgroundColor = "floralwhite";
   }
   updateBackgroundColor();
 
+
   // Part 3
-  function removeLast() {
+  function removeLastItem() {
     document.querySelector("li:last-child").remove("li:last-child");
   }
-  removeLast();
+  removeLastItem();
+
 
   // Part 4
   function updateFontSize() {
@@ -48,38 +51,41 @@ window.onload =  function(event) {
 
 
   // Part 5
-  function pastRacingRemove() {
+  function removePastRacingItem() {
     let pastRaces = document.getElementById("past-races");
     pastRaces.removeChild(pastRaces.children[3]);
   }
-  pastRacingRemove();
+  removePastRacingItem();
+
 
   // Part 6
-  function addCity() {
+  function addNewCity() {
     let listItem = document.createElement("li");
     let text = document.createTextNode("Miami");
     listItem.appendChild(text);
     document.getElementById("past-races").appendChild(listItem);
-
   }
-  addCity();
+  addNewCity();
+
 
   // Part 7
   function blogPost() {
     let blogPost = document.createElement("div");
     let h1Element = document.createElement("h1");
     let pElement = document.createElement("p");
+
+
     blogPost.className = "blog-post purple";
     h1Element.innerHTML = "Miami";
     pElement.innerHTML = "I had drag race down South Beach!";
-
     blogPost.appendChild(h1Element);
     blogPost.appendChild(pElement);
 
-    //Using [0] makes sure it is at the very end of the list
-    let main = document.getElementsByClassName("main")[0];
-    main.appendChild(blogPost);
 
+    let main = document.getElementsByClassName("main")[0]; //[0] = end of the list
+    main.appendChild(blogPost);
   }
+
+
   blogPost();
 }
