@@ -70,20 +70,20 @@ window.onload =  function(event) {
 
   // Part 7
   function blogPost() {
-    let blogPost = document.createElement("div");
+    let blogPostDiv = document.createElement("div");
     let h1Element = document.createElement("h1");
     let pElement = document.createElement("p");
 
 
-    blogPost.className = "blog-post purple";
+    blogPostDiv.className = "blog-post purple";
     h1Element.innerHTML = "Miami";
     pElement.innerHTML = "I had drag race down South Beach!";
-    blogPost.appendChild(h1Element);
-    blogPost.appendChild(pElement);
+    blogPostDiv.appendChild(h1Element);
+    blogPostDiv.appendChild(pElement);
 
 
     let main = document.getElementsByClassName("main")[0]; //[0] = end of list
-    main.appendChild(blogPost);
+    main.appendChild(blogPostDiv);
   }
 
 
